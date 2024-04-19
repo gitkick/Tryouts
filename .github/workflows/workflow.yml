@@ -7,6 +7,9 @@ jobs:
 
     steps:
      - name: hello world workflow
-       run: echo "Hello world"
+       run: |
+        echo "hello world"
+        echo "this is a multi line command"
 
-       
+
+
